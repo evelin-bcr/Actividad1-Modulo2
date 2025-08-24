@@ -1,0 +1,23 @@
+body {
+  background-color: #121212; 
+  color: #f1f1f1; 
+}
+
+h1 {
+  color: #ffffff;
+}
+.card {
+  background-color: #121212;
+  color: #f1f1f1;
+  box-shadow: 0 4px 8px #f1f1f1;
+  border-color:#f1f1f1 ;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
