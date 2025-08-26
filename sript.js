@@ -28,9 +28,11 @@ async function personajes() {
       console.error("Hubo un error inesperado:", error);
       alert("No se pudieron cargar los personajes. Intenta más tarde.");
     }
+    
   }
   
   personajes();
+
   
   
   
